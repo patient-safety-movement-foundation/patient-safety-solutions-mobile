@@ -18,6 +18,8 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* PatientSafetySolutionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PatientSafetySolutionsTests.m */; };
+		8463BC55231CA8B1001F223A /* FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8463BC54231CA8B1001F223A /* FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg */; };
+		8463BC57231CA958001F223A /* Patient_Safety_Movement_logo_notag_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8463BC56231CA958001F223A /* Patient_Safety_Movement_logo_notag_white.png */; };
 		849ACB18231C931700BECA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849ACB17231C931700BECA2F /* Assets.xcassets */; };
 		9961F8AE38F6279DA1A73FEE /* libPods-PatientSafetySolutions-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1BEB23F383F319BAAE6A68 /* libPods-PatientSafetySolutions-tvOSTests.a */; };
 		9DFAF32859C1D19864E10463 /* libPods-PatientSafetySolutions-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC042CCA23BD6C56D4501EB /* libPods-PatientSafetySolutions-tvOS.a */; };
@@ -59,6 +61,8 @@
 		64EE1B556A32F2602A982895 /* Pods-PatientSafetySolutions-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions-tvOSTests/Pods-PatientSafetySolutions-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C244470E93A01FC79C02A8D /* Pods-PatientSafetySolutions-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions-tvOS/Pods-PatientSafetySolutions-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		81E84CA114AD67ED0EE97AE6 /* libPods-PatientSafetySolutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8463BC54231CA8B1001F223A /* FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg; sourceTree = "<group>"; };
+		8463BC56231CA958001F223A /* Patient_Safety_Movement_logo_notag_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patient_Safety_Movement_logo_notag_white.png; sourceTree = "<group>"; };
 		849ACB17231C931700BECA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		974256D067116952805AFD95 /* Pods-PatientSafetySolutions-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions-tvOS/Pods-PatientSafetySolutions-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		C8869EFFCE2B985422B48A47 /* Pods-PatientSafetySolutions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions.debug.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions/Pods-PatientSafetySolutions.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +138,9 @@
 				849ACB17231C931700BECA2F /* Assets.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				8463BC56231CA958001F223A /* Patient_Safety_Movement_logo_notag_white.png */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				8463BC54231CA8B1001F223A /* FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg */,
 			);
 			name = PatientSafetySolutions;
 			sourceTree = "<group>";
@@ -344,8 +350,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8463BC55231CA8B1001F223A /* FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				849ACB18231C931700BECA2F /* Assets.xcassets in Resources */,
+				8463BC57231CA958001F223A /* Patient_Safety_Movement_logo_notag_white.png in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,6 +657,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.psm.apss;
 				PRODUCT_NAME = PatientSafetySolutions;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -669,6 +678,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.psm.apss;
 				PRODUCT_NAME = PatientSafetySolutions;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
