@@ -12,17 +12,17 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1A0001B0E9C87646B7C2B48C /* libPods-PatientSafetySolutions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E84CA114AD67ED0EE97AE6 /* libPods-PatientSafetySolutions.a */; };
-		2720DD14AB44DC6A26E50E4C /* libPods-PatientSafetySolutionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FE0FB595785FAC88B24066 /* libPods-PatientSafetySolutionsTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* PatientSafetySolutionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PatientSafetySolutionsTests.m */; };
+		5575DFF96CCD5006BCEF3C71 /* libPods-PatientSafetySolutions-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BE26EE298F32ED161E894A /* libPods-PatientSafetySolutions-tvOSTests.a */; };
 		8463BC55231CA8B1001F223A /* FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8463BC54231CA8B1001F223A /* FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg */; };
 		8463BC57231CA958001F223A /* Patient_Safety_Movement_logo_notag_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8463BC56231CA958001F223A /* Patient_Safety_Movement_logo_notag_white.png */; };
 		849ACB18231C931700BECA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849ACB17231C931700BECA2F /* Assets.xcassets */; };
-		9961F8AE38F6279DA1A73FEE /* libPods-PatientSafetySolutions-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1BEB23F383F319BAAE6A68 /* libPods-PatientSafetySolutions-tvOSTests.a */; };
-		9DFAF32859C1D19864E10463 /* libPods-PatientSafetySolutions-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC042CCA23BD6C56D4501EB /* libPods-PatientSafetySolutions-tvOS.a */; };
+		88D77D79910C157146101639 /* libPods-PatientSafetySolutions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3522A03A3A9778F17C8EE926 /* libPods-PatientSafetySolutions.a */; };
+		F32426238FE6838257BA1E63 /* libPods-PatientSafetySolutions-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80975A26036086CC53C23E29 /* libPods-PatientSafetySolutions-tvOS.a */; };
+		FD62D40B8B7961FD32F9A2DB /* libPods-PatientSafetySolutionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5DC12003D63F05F55092E8 /* libPods-PatientSafetySolutionsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,7 @@
 		00E356EE1AD99517003FC87E /* PatientSafetySolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientSafetySolutionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PatientSafetySolutionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatientSafetySolutionsTests.m; sourceTree = "<group>"; };
+		09BE26EE298F32ED161E894A /* libPods-PatientSafetySolutions-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutions-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* PatientSafetySolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientSafetySolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PatientSafetySolutions/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PatientSafetySolutions/AppDelegate.m; sourceTree = "<group>"; };
@@ -54,13 +55,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PatientSafetySolutions/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PatientSafetySolutions/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PatientSafetySolutions/main.m; sourceTree = "<group>"; };
-		2C1BEB23F383F319BAAE6A68 /* libPods-PatientSafetySolutions-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutions-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* PatientSafetySolutions-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PatientSafetySolutions-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* PatientSafetySolutions-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PatientSafetySolutions-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3522A03A3A9778F17C8EE926 /* libPods-PatientSafetySolutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		536390D9CBDCF207E49BBB36 /* Pods-PatientSafetySolutionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutionsTests.release.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutionsTests/Pods-PatientSafetySolutionsTests.release.xcconfig"; sourceTree = "<group>"; };
 		64EE1B556A32F2602A982895 /* Pods-PatientSafetySolutions-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions-tvOSTests/Pods-PatientSafetySolutions-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C244470E93A01FC79C02A8D /* Pods-PatientSafetySolutions-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions-tvOS/Pods-PatientSafetySolutions-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		81E84CA114AD67ED0EE97AE6 /* libPods-PatientSafetySolutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80975A26036086CC53C23E29 /* libPods-PatientSafetySolutions-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutions-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8463BC54231CA8B1001F223A /* FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FT_281A_Website_Graphics_PSSTS_2016_Cvent_Background_2000x1000.jpg; sourceTree = "<group>"; };
 		8463BC56231CA958001F223A /* Patient_Safety_Movement_logo_notag_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patient_Safety_Movement_logo_notag_white.png; sourceTree = "<group>"; };
 		849ACB17231C931700BECA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,11 +69,10 @@
 		C8869EFFCE2B985422B48A47 /* Pods-PatientSafetySolutions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions.debug.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions/Pods-PatientSafetySolutions.debug.xcconfig"; sourceTree = "<group>"; };
 		D8B932ED2422F59754F3D497 /* Pods-PatientSafetySolutions-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions-tvOSTests/Pods-PatientSafetySolutions-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		DD8110065CB8585CCD428A34 /* Pods-PatientSafetySolutionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutionsTests.debug.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutionsTests/Pods-PatientSafetySolutionsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DEC042CCA23BD6C56D4501EB /* libPods-PatientSafetySolutions-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutions-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EF92F114BDF421FA60739E27 /* Pods-PatientSafetySolutions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientSafetySolutions.release.xcconfig"; path = "Target Support Files/Pods-PatientSafetySolutions/Pods-PatientSafetySolutions.release.xcconfig"; sourceTree = "<group>"; };
-		F1FE0FB595785FAC88B24066 /* libPods-PatientSafetySolutionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5DC12003D63F05F55092E8 /* libPods-PatientSafetySolutionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientSafetySolutionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2720DD14AB44DC6A26E50E4C /* libPods-PatientSafetySolutionsTests.a in Frameworks */,
+				FD62D40B8B7961FD32F9A2DB /* libPods-PatientSafetySolutionsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0001B0E9C87646B7C2B48C /* libPods-PatientSafetySolutions.a in Frameworks */,
+				88D77D79910C157146101639 /* libPods-PatientSafetySolutions.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFAF32859C1D19864E10463 /* libPods-PatientSafetySolutions-tvOS.a in Frameworks */,
+				F32426238FE6838257BA1E63 /* libPods-PatientSafetySolutions-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9961F8AE38F6279DA1A73FEE /* libPods-PatientSafetySolutions-tvOSTests.a in Frameworks */,
+				5575DFF96CCD5006BCEF3C71 /* libPods-PatientSafetySolutions-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,10 +150,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				81E84CA114AD67ED0EE97AE6 /* libPods-PatientSafetySolutions.a */,
-				DEC042CCA23BD6C56D4501EB /* libPods-PatientSafetySolutions-tvOS.a */,
-				2C1BEB23F383F319BAAE6A68 /* libPods-PatientSafetySolutions-tvOSTests.a */,
-				F1FE0FB595785FAC88B24066 /* libPods-PatientSafetySolutionsTests.a */,
+				3522A03A3A9778F17C8EE926 /* libPods-PatientSafetySolutions.a */,
+				80975A26036086CC53C23E29 /* libPods-PatientSafetySolutions-tvOS.a */,
+				09BE26EE298F32ED161E894A /* libPods-PatientSafetySolutions-tvOSTests.a */,
+				FB5DC12003D63F05F55092E8 /* libPods-PatientSafetySolutionsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,6 +238,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				CC15E7A3D60AE460845799D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -470,6 +471,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CC15E7A3D60AE460845799D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientSafetySolutions/Pods-PatientSafetySolutions-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientSafetySolutions/Pods-PatientSafetySolutions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E330012840208D3823E5545D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,6 +668,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = LNW2RM47AZ;
 				INFOPLIST_FILE = PatientSafetySolutions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -670,6 +690,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LNW2RM47AZ;
 				INFOPLIST_FILE = PatientSafetySolutions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -708,7 +729,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
 			};
 			name = Debug;
 		};
@@ -737,7 +758,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
 			};
 			name = Release;
 		};
