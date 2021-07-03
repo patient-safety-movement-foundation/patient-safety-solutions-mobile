@@ -4,11 +4,12 @@ import {Linking} from 'react-native';
 import {WebView} from 'react-native-webview';
 
 class App extends React.Component {
-  handleLink = newNavState => {    const {url} = newNavState;
+  handleLink = newNavState => {
+    const {url} = newNavState;
     if (!url) {
       return;
     } else if (
-      !url.startsWith('https://apss.patient-safety-movement.now.sh/')
+      !url.startsWith('https://apss-patient-safety-movement.vercel.app/')
     ) {
       this.webView.stopLoading();
       Linking.openURL(newNavState.url);
@@ -20,7 +21,7 @@ class App extends React.Component {
     return (
       <WebView
         originWhitelist={['*']}
-        source={{uri: 'https://apss.patient-safety-movement.now.sh/'}}
+        source={{uri: 'https://apss-patient-safety-movement.vercel.app/'}}
         ref={c => {
           this.webView = c;
         }}
